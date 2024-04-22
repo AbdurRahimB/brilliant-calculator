@@ -6,8 +6,12 @@
 
     buttons.forEach(function(button) {
         button.addEventListener('click', function (e) {
-            let value = e.target.dataset.num;
-            screen.value += value;
+            if(e.target.classList.contains('btn-equal')) {
+                console.log("Just execute Equal Button");
+;            } else {
+                let value = e.target.dataset.num;
+                screen.value += value;
+            }
         })
     });
 
@@ -18,8 +22,8 @@
             let answer = eval(screen.value);
             screen.value = answer;
         }
-    })
-
-
-    
+    });
+    clear.addEventListener('click', function(e){
+        screen.value = "";
+    });
 }) ();
