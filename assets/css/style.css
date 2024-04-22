@@ -53,3 +53,20 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.btn-orange{
+background: orange;
+color: white;
+}
+
+.btn-grey{
+background: white;
+}
+
+.btn-equal{
+background: greenyellow;
+}
+
+.btn-clear{
+background: red;
+}
