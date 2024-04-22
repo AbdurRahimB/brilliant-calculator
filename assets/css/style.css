@@ -34,3 +34,12 @@ body {
     /* display writing disable*/
     pointer-events: none;
 }
+
+button{
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
