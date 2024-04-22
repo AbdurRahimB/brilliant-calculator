@@ -34,8 +34,18 @@ body {
     /* display writing disable*/
     pointer-events: none;
 }
-
+/* Placing buttons to the center*/
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+/* Styling to the buttons*/
 button{
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #000;
     width: 60px;
     height: 52px;
     font-size: 22px;
