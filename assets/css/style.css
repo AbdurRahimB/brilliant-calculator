@@ -12,6 +12,11 @@ body {
     align-items: center;
 }
 
+/*Heading is hidden*/
+.hidden {
+    display: none;
+}
+
 .calculator {
     width: 300px;
     height: 500px;

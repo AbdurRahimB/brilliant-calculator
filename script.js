@@ -21,7 +21,7 @@
                 lastButtonType = 'equal';
             } else if (value) {
                 // If the last character is an operator and the current button is an operator, replace the last character
-                if (['+', '-', '', '/'].includes(screen.value.slice(-1)) && ['+', '-', '', '/'].includes(value)) {
+                if (['+', '-', '*', '/'].includes(screen.value.slice(-1)) && ['+', '-', '*', '/'].includes(value)) {
                     screen.value = screen.value.slice(0, -1) + value;
                 } else {
                     screen.value += value;
