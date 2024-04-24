@@ -12,7 +12,7 @@
 
             // clear the screen if the last button pressed was an operator or equal sign
             if (lastButtonType === 'operator' || lastButtonType === 'equal') {
-                screen.value = ''; // Clear the screen if the last button pressed was an operator or equal sign
+                screen.value = '';
             }
 
             // update lastButtonType based on the last pressed button
