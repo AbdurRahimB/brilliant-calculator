@@ -17,7 +17,6 @@
 
             // update lastButtonType based on the last pressed button
             if (e.target.classList.contains('btn-equal')) {
-                console.log("Just execute Equal Button");
                 lastButtonType = 'equal';
             } else if (value) {
                 // If the last character is an operator and the current button is an operator, replace the last character
